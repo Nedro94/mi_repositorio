@@ -1,3 +1,28 @@
 .nav-link {
     color: aliceblue;
 }
+
+.bg-primary{
+    height: 100%;
+}
+
+.titulo{
+    margin-bottom: 2rem;
+}
+
+.nav-item{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.h1{
+    color: aliceblue;
+}
+.imagen{
+    height: 80%;
+    padding: 10%;
+}
+
+.text{
+    text-align: center;
+    height: 30%;
+}
