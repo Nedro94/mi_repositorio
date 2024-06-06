@@ -22,6 +22,10 @@
     padding: 10%;
 }
 
+.lista{
+    list-style:none
+}
+
 .text{
     text-align: center;
 }
