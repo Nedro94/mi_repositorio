@@ -1,0 +1,11 @@
+# Archivos y directorios generados automáticamente
+node_modules/
+dist/
+
+# Archivos de configuración locales
+.env
+.env.*
+
+# Archivos de logs y caché
+*.log
+*.cache
