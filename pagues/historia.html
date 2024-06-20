@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Segundo trabajo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
     <!-- NAVEGACIÓN -->
-    <div class="bg-primary  d-flex ">
-        <ul class="container-lg bg-primary nav justify-content-center">
-            <li class="nav-item ">
-                <a class="nav-link active" aria-current="page" href="../index.html">Principal</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="historia.html">Historia</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="Recetas.html">Recetas</a>
-            </li>
-        </ul>
-    </div>
-    <div class="bg-primary titulo d-flex">
-        <div class="container d-flex align-items-center justify-content-center mt-1">
-                <h1 class="h1">
-                    Historia
-                </h1>
+    <header class="header">
+        <div class="logo">
+            <img src="../img/sol.png" alt="Logo">
         </div>
-    </div>
+        <div class="nav-container">
+            <nav class="navbar">
+                <ul class="container-lg nav justify-content-center">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Principal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="historia.html">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Recetas.html">Recetas</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="d-flex justify-content-center">
+                <h1 class="h1">
+                    HISTORIA
+                </h1>
+            </div>
+        </div>
+    </header>
 
     <!-- Principal -->
     <main class="main">
@@ -41,16 +51,37 @@
                 <div class="container  flex-column">
                     <h2 class="text">La milanesa y sus orígenes en Italia</h2>
                     <p class="text">
-                        En Milán se conserva un pergamino de mediadios del siglo XII que habla de un lumbulus cum panicio –carne de vaca o lomo con pan– como parte de un menú de nueve platos que ofrecía el abad de San Ambrosio en su Basílica con motivo de las fiestas de San Sátiro. Este es el primer registro de una versión primitiva de la milanesa, pero una comida no son solo sus ingredientes sino también su método de cocción, y una milanesa que no se fríe no es una verdadera milanesa. Fue Bartolomeo Scappi, cocinero de altos mandos eclesiásticos, quien descubrió en el siglo XVI que rebozar la carne y luego freírla cuidaba, tiernizaba y mejoraba su gusto.
-    Sin embargo, faltarían varios siglos para que su receta apareciera en un libro de cocina y curiosamente bajo un nombre de origen francés: coteletta, del francés cotolette –pequeña costilla–. Esto sucedió en 1855 en el libro Gastronomía Moderna de Giuseppe Sorbiatti y la receta madre de la cotoletta alla milanese dice así: "Coloca sutilmente seis costillas con gracia, sumérgelas en el huevo batido, luego pásalas por el pan, déjalas freír a fuego lento, dales la vuelta y después de dos minutos sírvelas en el plato con el limón a un lado".
+                        En Milán se conserva un pergamino de mediadios del siglo XII que habla de un lumbulus cum
+                        panicio –carne de vaca o lomo con pan– como parte de un menú de nueve platos que ofrecía el abad
+                        de San Ambrosio en su Basílica con motivo de las fiestas de San Sátiro. Este es el primer
+                        registro de una versión primitiva de la milanesa, pero una comida no son solo sus ingredientes
+                        sino también su método de cocción, y una milanesa que no se fríe no es una verdadera milanesa.
+                        Fue Bartolomeo Scappi, cocinero de altos mandos eclesiásticos, quien descubrió en el siglo XVI
+                        que rebozar la carne y luego freírla cuidaba, tiernizaba y mejoraba su gusto.
+                        Sin embargo, faltarían varios siglos para que su receta apareciera en un libro de cocina y
+                        curiosamente bajo un nombre de origen francés: coteletta, del francés cotolette –pequeña
+                        costilla–. Esto sucedió en 1855 en el libro Gastronomía Moderna de Giuseppe Sorbiatti y la
+                        receta madre de la cotoletta alla milanese dice así: "Coloca sutilmente seis costillas con
+                        gracia, sumérgelas en el huevo batido, luego pásalas por el pan, déjalas freír a fuego lento,
+                        dales la vuelta y después de dos minutos sírvelas en el plato con el limón a un lado".
                     </p>
                     <h2 class="text">El desembarco de la milanesa en Argentina</h2>
                     <p class="text">
-                        Pese a que todavía no se había transformado en una comida popular, la receta de la milanesa ya aparece en el primer recetario argentino: El Almanaque de la Cocinera Argentina de 1880. Todavía se hablaba de una carne con hueso al mejor estilo milanés. Está claro que esa receta de la milanesa no se difundió y la que primó en nuestra patria es una prima hermana humilde proveniente de Sicilia: la cotoletta a la messinese. Una versión hecha con una carne más fina y sin hueso –por cuestiones económicas– rebozada en pan y queso rallado, huevo, ajo y perejil.
+                        Pese a que todavía no se había transformado en una comida popular, la receta de la milanesa ya
+                        aparece en el primer recetario argentino: El Almanaque de la Cocinera Argentina de 1880. Todavía
+                        se hablaba de una carne con hueso al mejor estilo milanés. Está claro que esa receta de la
+                        milanesa no se difundió y la que primó en nuestra patria es una prima hermana humilde
+                        proveniente de Sicilia: la cotoletta a la messinese. Una versión hecha con una carne más fina y
+                        sin hueso –por cuestiones económicas– rebozada en pan y queso rallado, huevo, ajo y perejil.
 
-                        No está claro porque fue esta la versión que se popularizó en la Argentina, pero seguramente haya sido por la gran cantidad de sicilianos que arribaron al país a principios del siglo XX y, por ser una versión más simple y económica que la de su madre elegante de Milán.
-                        
-                        Pero fue recién a mediados del siglo XX cuando esa preparación italiana se transformó en puramente argentina y tomó la gran jerarquía de sustantivo: se volvió La Milanesa, y no un método de cocción de una materia prima –a la milanesa–. El primer registro escrito de esto, se encuentra en la edición de 1950 del gran Doña Petrona.
+                        No está claro porque fue esta la versión que se popularizó en la Argentina, pero seguramente
+                        haya sido por la gran cantidad de sicilianos que arribaron al país a principios del siglo XX y,
+                        por ser una versión más simple y económica que la de su madre elegante de Milán.
+
+                        Pero fue recién a mediados del siglo XX cuando esa preparación italiana se transformó en
+                        puramente argentina y tomó la gran jerarquía de sustantivo: se volvió La Milanesa, y no un
+                        método de cocción de una materia prima –a la milanesa–. El primer registro escrito de esto, se
+                        encuentra en la edición de 1950 del gran Doña Petrona.
                     </p>
                 </div>
             </div>
@@ -64,7 +95,7 @@
         <div class="container d-flex align-items-center justify-content-center mt-5 p-3">
             <div class="row">
                 <div class="col-12 d-flex align-items-center justify-content-center">
-                    <a class="redes"  href="https://www.facebook.com" target="_blank">
+                    <a class="redes" href="https://www.facebook.com" target="_blank">
                         <img src="../img/bxl-facebook.svg" alt="Logo Facebook">
                     </a>
                     <a class="redes" href="https://www.instagram.com" target="_blank">
@@ -73,9 +104,10 @@
                 </div>
                 <div class="align-items-center justify-content-center">
                     <p>2024 - Todos los derechos reservados.</p>
-                </div>  
-            </div>                    
+                </div>
+            </div>
         </div>
     </footer>
 </body>
+
 </html>

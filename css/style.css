@@ -6,8 +6,32 @@
 }
 
 /* navegacion */
-.bg-primary {
-  height: 100%;
+.header {
+  display: flex;
+  background-color: #0d6efd;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
 }
 
 .nav-link {
@@ -27,7 +51,16 @@
   color: aliceblue;
 }
 
-/* navegacion */
+.logo {
+  margin-right: 20px;
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+/* princial */
 .imagen {
   height: 80%;
   padding: 10%;
